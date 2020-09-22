@@ -1,4 +1,4 @@
-#!/user/bin/env node
+#!/usr/bin/env node
 import { generate } from "./";
 
 process.stdin.resume();

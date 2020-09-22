@@ -2,7 +2,7 @@
   "name": "zod-generate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "prepublish": "tsc",
     "test": "jest"
@@ -10,9 +10,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "bin": "./dist/cli.js",
+  "files": [
+    "./dist"
+  ],
   "dependencies": {
     "acorn": "^8.0.1",
     "acorn-walk": "^8.0.0",
